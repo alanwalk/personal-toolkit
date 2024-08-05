@@ -1,0 +1,15 @@
+{
+    "name": "personal-toolkit",
+    "dependencies": {
+        "@types/node": "^22.1.0",
+        "axios": "^1.7.3",
+        "fast-node-downloader": "^1.1.7",
+        "progress": "^2.0.3"
+    },
+    "scripts": {
+        "install-latest-apk": "tsx --env-file=.env ./src/install-latest-apk"
+    },
+    "devDependencies": {
+        "@types/progress": "^2.0.7"
+    }
+}
